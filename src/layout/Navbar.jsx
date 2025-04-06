@@ -4,12 +4,14 @@ import { motion } from 'framer-motion'
 export const Navbar = () => {
   return (
     <div className='w-full h-[5rem] bg-gray-900 flex flex-col justify-center items-center'>
-      <div className='w-full flex justify-between items-center lg:px-20'>
+      <div className='w-full flex justify-between items-center px-2 lg:px-20'>
         <div className='text-amber-100 text-[1.2rem] flex justify-center items-center'>
           <div className='w-[3rem] h-[3rem] lg:w-[5rem] lg:h-[5rem]'><img src="/images/logo.png" alt="logo" /></div>
           <div className='text-[1.1rem] lg:text-2xl'>Adv.Baldev Rajput</div>
         </div>
-        
+        <div className='lg:hidden w-[2rem] h-[2rem]'>
+          <img src="https://cdn-icons-png.flaticon.com/128/15610/15610331.png" alt="humburgIcon" />
+        </div>
         <div className='hidden w-[28rem] h-[4rem] lg:flex justify-between items-center text-gray-900 bg-pink-200/50 p-[0.2rem] rounded-md'>
 
           <div className='flex justify-center items-center'>

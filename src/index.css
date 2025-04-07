@@ -1,8 +1,11 @@
 @import "tailwindcss";
-body{
+*{
   margin:0px;
   padding: 0px;
   box-sizing: border-box;
+}
+body{
+  overflow-x:hidden ;
 }
 .barlow-condensed-thin {
     font-family: "Barlow Condensed", sans-serif;

@@ -2,7 +2,7 @@ import React from 'react'
 import { baldevjiDetail } from './data/baldevjiDetail'
 export const Homepage = () => {
   return (
-    <div>
+    <div className='overflow-x-hidden'>
       {/* ----------------------------------------Section One-------------------------------------------------- */}
       <div className='w-[100%] min-h-screen lg:h-[30rem] bg-[url("/images/backgrond.jpg")] bg-cover bg-no-repeat bg-center'>
         <div className='w-[100%] min-h-screen bg-black/65 lg:px-[10rem] lg:py-10'>

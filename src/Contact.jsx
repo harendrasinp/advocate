@@ -2,6 +2,8 @@ import React from 'react'
 
 export const Contact = () => {
   return (
-    <div className='bg-amber-400'>Contact</div>
+    <div className='min-h-screen w-full bg-[url("/images/contactImage.jpg")] bg-center bg-cover bg-no-repeat'>
+      
+    </div>
   )
 }

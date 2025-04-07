@@ -4,8 +4,8 @@ export const Homepage = () => {
   return (
     <div>
       {/* ----------------------------------------Section One-------------------------------------------------- */}
-      <div className='w-[100%] min-h-screen lg:h-[30rem] bg-[url("/images/backgrond.jpg")] bg-cover bg-no-repeat bg-center'>
-        <div className='w-[100%] min-h-screen bg-black/65 lg:px-[10rem] lg:py-10'>
+      <div className='max-w-full min-h-screen lg:h-[30rem] bg-[url("/images/backgrond.jpg")] bg-cover bg-no-repeat bg-center'>
+        <div className='max-w-full min-h-screen bg-black/65 lg:px-[10rem] lg:py-10'>
 
           <div className='w-full py-[2rem] bg-slate-500/20 flex justify-center items-center flex-col lg:flex-row lg:items-end lg:py-0'>
 
@@ -23,7 +23,7 @@ export const Homepage = () => {
         </div>
       </div>
       {/* ------------------------------Second Two---------------------------------------------------- */}
-      {/* <div className='min-h-screen w-full bg-[url("/images/section2Image.jpg")] bg-cover bg-center bg-no-repeat'>
+      <div className='min-h-screen w-full bg-[url("/images/section2Image.jpg")] bg-cover bg-center bg-no-repeat'>
         <div className='min-h-screen w-full bg-black/65 flex flex-col gap-[1rem]  items-center  lg:flex lg:flex-col lg:justify-center lg:items-center lg:gap-10'>
           <div className='text-3xl text-amber-100'>Associates</div>
 
@@ -55,7 +55,7 @@ export const Homepage = () => {
 
           </div>
         </div>
-      </div> */}
+      </div>
     </div>
   )
 }

@@ -11,9 +11,7 @@ export const Pagelayout = () => {
             <main className='flex-1'>
                 <Outlet />
             </main>
-            <div>
-                <Footer />
-            </div>
+            <Footer />
         </div>
     )
 }

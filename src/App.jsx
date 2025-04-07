@@ -1,5 +1,5 @@
 import React from 'react'
-import { Home } from './home'
+import { Homepage } from './Homepage'
 import { Contact } from './Contact'
 import { Aboutus } from './Aboutus'
 import { Route, Routes } from 'react-router-dom'
@@ -9,7 +9,7 @@ export const App = () => {
     <div className='bg-black/90'>
       <Routes>
         <Route path='/' element={<Pagelayout />}>
-          <Route index element={<Home />} />
+          <Route index element={<Homepage />} />
           <Route path='/Contact' element={<Contact />} />
           <Route path='/About' element={<Aboutus />} />
         </Route>

@@ -25,7 +25,7 @@ export const Homepage = () => {
       {/* ------------------------------Second Two---------------------------------------------------- */}
       <div className='min-h-screen w-full bg-[url("/images/section2Image.jpg")] bg-cover bg-center bg-no-repeat'>
         <div className='min-h-screen w-full bg-black/65'>
-          <div className='text-amber-50 flex flex-col justify-center items-center gap-5 lg:flex lg:h-[20rem] lg:justify-center lg:gap-5 '>
+          <div className='text-amber-50 flex flex-col justify-center items-center gap-5 lg:flex lg:flex-row lg:h-[20rem] lg:justify-center lg:gap-5 '>
 
             <div className='bg-slate-400/25 p-[0.5rem] w-[13rem] h-[16rem] flex flex-col items-center rounded-[0.2rem]'>
                 <img className=' relative h-[12rem] w-full' src="/images/baldevji.jpg" alt="associat1" />

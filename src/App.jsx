@@ -6,7 +6,7 @@ import { Route, Routes } from 'react-router-dom'
 import { Pagelayout } from './layout/Pagelayout'
 export const App = () => {
   return (
-    <div className='bg-black/90'>
+    <div className=''>
       <Routes>
         <Route path='/' element={<Pagelayout />}>
           <Route index element={<Homepage />} />

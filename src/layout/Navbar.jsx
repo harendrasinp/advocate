@@ -15,7 +15,6 @@ export const Navbar = () => {
         </div>
         {/* --------------------------------------Humberg icon for mobile--------------------------------------------- */}
         <div className='lg:hidden w-[2rem] h-[2rem]'>
-          {/* <img src="https://cdn-icons-png.flaticon.com/128/15610/15610331.png" alt="humburgIcon" /> */}
           <Humburg/>
         </div>
         {/* -------------------------------------desktop social media section--------------------------------------------- */}

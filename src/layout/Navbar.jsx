@@ -4,12 +4,12 @@ import { Link } from 'react-router-dom'
 import { motion } from 'framer-motion'
 export const Navbar = () => {
   return (
-    <div className='w-[100%] h-[8rem] bg-gray-900 flex flex-col justify-around items-center'>
+    <div className='max-w-full h-[8rem] bg-gray-900 flex flex-col justify-around items-center'>
 
-      <div className='w-[100%] flex justify-between items-center px-2 lg:px-20'>
+      <div className='max-w-full flex justify-between items-center px-2 lg:px-20'>
         {/* ---------------------------------------Baldev jiju name and logo----------------------------------------------- */}
         <div className='text-amber-100 text-[1.2rem] flex justify-center items-center'>
-          <div className='w-[3rem] h-[3rem] lg:w-[5rem] lg:h-[5rem]'><img src="/images/logo.png" alt="logo" /></div>
+          <div className='w-[3rem] h-[3rem] lg:w-[5rem] lg:h-[5rem]'><img className='max-w-full' src="/images/logo.png" alt="logo" /></div>
           <div className='text-[1.1rem] lg:text-2xl'>Adv.Baldev Rajput</div>
           <div className='w-[2rem] h-[2rem] lg:w-[1.5rem] lg:h-[1.5rem]'><img src="https://cdn-icons-png.flaticon.com/128/14255/14255443.png" alt="tie" /></div>
         </div>

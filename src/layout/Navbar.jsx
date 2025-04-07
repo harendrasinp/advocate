@@ -25,7 +25,7 @@ export const Navbar = () => {
               <div className='text-[1rem] font-semibold'>Contact</div>
               <img className='w-[2rem] h-[2rem]' src="https://cdn-icons-png.flaticon.com/128/91/91916.png" alt="contact" />
             </div>
-            <div className='text-amber-50 text-[1.5rem] barlow-condensed-black'>+91 98 67 77 56 26</div>
+            <div className='text-amber-50 text-[1.5rem] barlow-condensed-black'>+91 9322592926</div>
           </div>
           {/*--------------------------------------------------Social media icon------------------------------------------ */}
           <div className='flex justify-center items-center w-[12rem] gap-5'>

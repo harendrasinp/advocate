@@ -7,7 +7,7 @@ export const Homepage = () => {
 
         <div className='w-full py-[2rem] bg-slate-500/35 flex justify-center items-center flex-col lg:flex-row lg:items-end lg:py-0'>
           
-          <div className='h-[15rem] w-[10rem] lg:h-[25rem] lg:w-[19rem] shadow-slate-700'>
+          <div className='h-[13rem] w-[10rem] lg:h-[25rem] lg:w-[19rem]'>
             <img className='h-full w-full' src="/images/baldevji2.jpg" alt="jiju" />
           </div>
 

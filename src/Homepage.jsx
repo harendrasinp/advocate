@@ -9,7 +9,7 @@ export const Homepage = () => {
 
           <div className='w-full py-[2rem] bg-slate-500/20 flex justify-center items-center flex-col lg:flex-row lg:items-end lg:py-0'>
 
-            <div className='h-[14rem] w-[12rem] lg:h-[25rem] lg:w-[19rem]'>
+            <div className='h-[14rem] w-[12rem] lg:h-[22rem] lg:w-[19rem]'>
               <img className='h-full w-full' src="/images/baldevji2.jpg" alt="jiju" />
             </div>
 
@@ -23,7 +23,7 @@ export const Homepage = () => {
         </div>
       </div>
       {/* ------------------------------Second Two---------------------------------------------------- */}
-      <div className='min-h-screen w-full bg-[url("/images/section2Image.jpg")] bg-cover bg-center bg-no-repeat'>
+      {/* <div className='min-h-screen w-full bg-[url("/images/section2Image.jpg")] bg-cover bg-center bg-no-repeat'>
         <div className='min-h-screen w-full bg-black/65 flex flex-col gap-[1rem]  items-center  lg:flex lg:flex-col lg:justify-center lg:items-center lg:gap-10'>
           <div className='text-3xl text-amber-100'>Associates</div>
 
@@ -55,7 +55,7 @@ export const Homepage = () => {
 
           </div>
         </div>
-      </div>
+      </div> */}
     </div>
   )
 }

@@ -24,7 +24,7 @@ export const Homepage = () => {
       </div>
       {/* ------------------------------Second Two---------------------------------------------------- */}
       <div className='min-h-screen w-full bg-[url("/images/section2Image.jpg")] bg-cover bg-center bg-no-repeat'>
-        <div className='min-h-screen w-full bg-black/65 flex flex-col justify-center items-center gap-10 lg:flex lg:flex-col lg:justify-center lg:items-center lg:gap-10'>
+        <div className='min-h-screen w-full bg-black/65 flex flex-col  items-center lg:flex lg:flex-col lg:justify-center lg:items-center lg:gap-10'>
           <div className='text-3xl text-amber-100'>Associates</div>
 
           <div className='text-amber-50 grid grid-cols-2 gap-4 lg:flex lg:flex-row lg:h-[20rem] lg:justify-center lg:gap-5'>

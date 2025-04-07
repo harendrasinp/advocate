@@ -4,7 +4,7 @@ export const Homepage = () => {
   return (
     <div>
       {/* ----------------------------------------Section One-------------------------------------------------- */}
-      <div className='w-full min-h-screen lg:h-[30rem]  bg-[url("/images/backgrond.jpg")] bg-cover bg-no-repeat bg-center'>
+      <div className='w-[100%] min-h-screen lg:h-[30rem]  bg-[url("/images/backgrond.jpg")] bg-cover bg-no-repeat bg-center'>
         <div className='w-full min-h-screen bg-black/65 lg:px-[10rem] lg:py-10'>
 
           <div className='w-full py-[2rem] bg-slate-500/20 flex justify-center items-center flex-col lg:flex-row lg:items-end lg:py-0'>

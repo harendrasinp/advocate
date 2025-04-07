@@ -1,5 +1,5 @@
 import React from 'react'
-import { Humberg } from '../humberg'
+import { Humburg } from '../Humburg'
 import { Link } from 'react-router-dom'
 import { motion } from 'framer-motion'
 export const Navbar = () => {
@@ -16,7 +16,7 @@ export const Navbar = () => {
         {/* --------------------------------------Humberg icon for mobile--------------------------------------------- */}
         <div className='lg:hidden w-[2rem] h-[2rem]'>
           {/* <img src="https://cdn-icons-png.flaticon.com/128/15610/15610331.png" alt="humburgIcon" /> */}
-          <Humberg/>
+          <Humburg/>
         </div>
         {/* -------------------------------------desktop social media section--------------------------------------------- */}
         <div className='hidden w-[28rem] h-[4rem] lg:flex justify-between items-center text-gray-900 bg-pink-200/50 p-[0.2rem] rounded-md'>

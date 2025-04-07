@@ -1,5 +1,5 @@
 import React from 'react'
-
+import { motion } from 'framer-motion'
 export const Humburg = () => {
     return (
         <div className='flex flex-col gap-2'>

@@ -13,7 +13,7 @@ export const Homepage = () => {
               <img className='h-full w-full' src="/images/baldevji2.jpg" alt="jiju" />
             </div>
 
-            <div className='text-amber-50 w-[22rem] flex flex-col justify-center items-center text-justify lg:items-start lg:w-[50rem] px-2'>
+            <div className='text-amber-50 max-w-[22rem] flex flex-col justify-center items-center text-justify lg:items-start lg:w-[50rem] px-2'>
               <div>{baldevjiDetail.Name}</div>
               <div>{baldevjiDetail.Experience}</div>
               <div>{baldevjiDetail.Specialization}</div>

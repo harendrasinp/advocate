@@ -6,7 +6,7 @@ import { Menuitem } from '../Navbar/Menuitem'
 export const Navbar = () => {
   return (
     <div className='max-w-full h-[8rem] bg-gray-900 flex flex-col justify-end items-center lg:h-[9rem]'>
-      <div className='w-[90%] mb-2 flex justify-between items-center lg:mb-1'>
+      <div className='w-[90%] box-border mb-2 flex justify-between items-center lg:mb-1'>
         <Logosection />
         <Humburg />
         <Socialmedia />

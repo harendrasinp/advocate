@@ -9,7 +9,6 @@ export const Menuitem = () => {
             <Link to={"/Contact"} className='bg-slate-900 p-1 text-amber-50 text-[1.2rem] hover:text-slate-900 hover:bg-slate-400 transition duration-300 rounded-[0.2rem] lg:p-2'>Contact</Link>
 
             <Link to={"/About"} className='bg-slate-900 p-1 text-amber-50 text-[1.2rem] hover:text-slate-900 hover:bg-slate-400 transition duration-300 rounded-[0.2rem] lg:p-2'>AboutUs</Link>
-            <div>haren</div>
         </div>
     )
 }

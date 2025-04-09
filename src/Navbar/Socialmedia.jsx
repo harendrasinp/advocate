@@ -2,7 +2,7 @@ import React from 'react'
 import { motion } from 'framer-motion'
 export const Socialmedia = () => {
     return (
-        <div className='hidden lg:w-[28rem] lg:h-[4rem] lg:flex lg:justify-around lg:items-center lg:text-gray-900 lg:bg-pink-200/50 lg:rounded-md'>
+        <div className='hidden sm:flex justify-around items-center text-gray-900 bg-pink-200/50 rounded-md w-full sm:h-[4rem] sm:w-[25rem] lg:w-[28rem]'>
             {/* -------------------------------------Contact and number------------------------------------------ */}
             <div className='flex justify-center items-center'>
                 <div className='h-full w-[5rem] flex flex-col justify-center items-center rounded-[0.2rem]'>

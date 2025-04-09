@@ -11,7 +11,7 @@ export const Humburg = () => {
     }
 // -------------------------------Return---------------------------------------------------------------------------
     return (
-        <div className='lg:hidden w-[2rem] h-[2rem] overflow-x-hidden'
+        <div className='lg:hidden sm:hidden  w-[2rem] h-[2rem] overflow-x-hidden'
             onClick={toggle}>
 
             <div className='flex flex-col gap-2'>

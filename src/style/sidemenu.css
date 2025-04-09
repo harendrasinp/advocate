@@ -1,0 +1,23 @@
+.active{
+    animation: slide-in 0.4s ease-in-out;
+}
+.unactive{
+    animation: slide-out 0.3s ease-in-out forwards;
+}
+
+@keyframes slide-in{
+    0%{
+        transform: translateY(-100%);
+    }
+    100%{
+        transform: translateY(0);
+    }
+}
+@keyframes slide-out{
+    0%{
+        transform: translateY(0);
+    }
+    100%{
+        transform: translateY(-100%);
+    }
+}

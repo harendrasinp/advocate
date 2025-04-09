@@ -2,9 +2,9 @@ import React from 'react';
 import { baldevjiDetail } from '../data/baldevjiDetail';
 export const Section1 = () => {
   return (
-        <div className='max-w-full h-full bg-black/65 lg:px-[10rem] lg:py-10'>
+        <div className='max-w-full h-screen bg-black/65 lg:px-[10rem] lg:py-10'>
 
-          <div className='w-full h-screen py-[2rem] bg-slate-500/20 flex justify-center items-center flex-col lg:h-[22rem]    lg:flex-row lg:items-end lg:py-0'>
+          <div className='w-full h-screen py-[2rem] bg-slate-500/20 flex justify-start items-center flex-col lg:h-[22rem]    lg:flex-row lg:items-end lg:py-0'>
 
             <div className='h-[14rem] w-[12rem] lg:h-[22rem] lg:w-[19rem]'>
               <img className='h-full w-full' src="/images/baldevji2.jpg" alt="jiju" />

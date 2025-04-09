@@ -4,7 +4,7 @@ import { createSlice } from "@reduxjs/toolkit";
 
 export const NavbarSlice=createSlice({
     name:"navbar",
-    initialState:{navState:"unactive"},
+    initialState:{navState:"block"},
     reducers:{
         setNavState:(state,action)=>{
             state.navState=action.payload

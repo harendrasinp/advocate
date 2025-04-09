@@ -4,12 +4,15 @@ import { useDispatch,useSelector} from 'react-redux'
 import { setNavState } from '../reducer/navbarReducer'
 export const Humburg = () => {
     const navState=useSelector((state)=>state.navbar.navState)
-    console.log(navState)
     const dispatch=useDispatch()
+// ----------------------------------function---------------------------------------------------------------------
+    const toggle=()=>{
+        dispatch(setNavState(navState==="active"?"unactive":"active"))
+    }
 // -------------------------------Return---------------------------------------------------------------------------
     return (
         <div className='lg:hidden w-[2rem] h-[2rem] overflow-x-hidden'
-            onClick={()=>dispatch(setNavState(navState=="active"?"unactive":"active"))}>
+            onClick={toggle}>
 
             <div className='flex flex-col gap-2'>
 

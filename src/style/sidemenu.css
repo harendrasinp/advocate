@@ -1,5 +1,5 @@
 .active{
-    animation: slide-in 0.4s ease-in-out;
+    animation: slide-in 0.4s ease-in-out ;
 }
 .unactive{
     animation: slide-out 0.3s ease-in-out forwards;

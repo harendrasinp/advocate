@@ -10,7 +10,7 @@ export const Sidemenu = () => {
                 <li className='border-b-2 border-amber-300'>Home</li>
                 <li className='border-b-2 border-amber-300'>Appointment</li>
                 <li className='border-b-2 border-amber-300'>Services</li>
-                <li className='border-b-2 border-amber-300'>Achivment</li>
+                <li className='border-b-2 border-amber-300'>Achievments</li>
                 <li className='border-b-2 border-amber-300'>Contact Us</li>
                 <li className='border-b-2 border-amber-300'>About Us</li>
                 <li className='border-b-2 border-amber-300'>Cases</li>

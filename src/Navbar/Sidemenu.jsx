@@ -12,7 +12,7 @@ export const Sidemenu = () => {
         dispatch(setNavState(navState==="active"?"unactive":"active"))
     }
     return (
-        <div className={`absolute w-full min-h-[15rem] bg-slate-800/90 lg:hidden active ${navState}`}>
+        <div className={`absolute min-w-screen min-h-[15rem] bg-slate-800/90 lg:hidden active ${navState}`}>
             <ul className='text-white flex flex-col justify-center px-3 gap-1'>
                 <li className='border-b-2 border-amber-300' onClick={toggle}><Link to={"/"}>Home</Link></li>
                 <li className='border-b-2 border-amber-300' onClick={toggle}>Appointment</li>

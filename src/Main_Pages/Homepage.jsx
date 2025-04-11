@@ -1,6 +1,6 @@
 import React from 'react'
-import { Section1 } from './Home page sections/Section1'
-import { Section2 } from './Home page sections/Section2'
+import { Section1 } from '../Home page sections/Section1'
+import { Section2 } from '../Home page sections/Section2'
 export const Homepage = () => {
   return (
     <div>
